@@ -11,8 +11,6 @@ on:
     paths:
       - '.github/workflows/dart_services.yml'
       - 'pkgs/dart_services/**'
-  schedule:
-    - cron: '0 0 * * *' # daily
 
 jobs:
   # Check code formatting, static analysis, and build on a single OS (linux).
